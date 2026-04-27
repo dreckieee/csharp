@@ -1,6 +1,6 @@
 ﻿using System;
-class dreckieeeGradeCalculator
-{
+class gradeCalculator
+{//made by dreckieee
     static void Main()
     {
         //user input on how many subjects
