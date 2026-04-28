@@ -1,6 +1,6 @@
 ﻿using System;
 
-class dreckieeeAgeCalculator
+class AgeCalculator
 {//start of class Program
     static void Main()
     {//start of Main()

@@ -1,5 +1,5 @@
 ﻿using System;
-class gradeCalculator
+class GradeCalculator
 {//made by dreckieee
     static void Main()
     {
@@ -14,11 +14,11 @@ class gradeCalculator
         //loop for user input on grades of each subject
         for(int i = 0;i < subjectsNum; i++)
         {
-            i += 1;
-            Console.Write($"Subject {i}: ");
+            //i += 1;
+            Console.Write($"Subject {i + 1}: ");
             gradeTemp = Convert.ToInt32(Console.ReadLine());
             grade = grade + gradeTemp;
-            i -= 1;
+            //i -= 1;
         }
         //computation for grade average
         grade = (decimal)grade / subjectsNum; 
