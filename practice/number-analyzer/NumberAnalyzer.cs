@@ -11,7 +11,7 @@ class NumberAnalyzer
         string prompt = "Enter how many numbers you want to analyze: ";
         int x = ReadInt(prompt,0);
 
-        //initializing the array "arrNum"
+        //git rm -r --cached practice/test0initializing the array "arrNum"
         decimal[] arrNum = new decimal[x];
         for(int i = 0;i<x;i++)
         {

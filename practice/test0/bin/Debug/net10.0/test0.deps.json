@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "CSharpPractice/1.0.0": {
+      "test0/1.0.0": {
         "runtime": {
-          "CSharpPractice.dll": {}
+          "test0.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "CSharpPractice/1.0.0": {
+    "test0/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

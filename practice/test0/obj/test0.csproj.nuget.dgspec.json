@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Owned Files\\Dreck\\Work\\2026\\C#\\CSharpPractice\\CSharpPractice.csproj": {}
+    "D:\\Owned Files\\Dreck\\Work\\2026\\C#\\CSharpPractice\\practice\\test0\\test0.csproj": {}
   },
   "projects": {
-    "D:\\Owned Files\\Dreck\\Work\\2026\\C#\\CSharpPractice\\CSharpPractice.csproj": {
+    "D:\\Owned Files\\Dreck\\Work\\2026\\C#\\CSharpPractice\\practice\\test0\\test0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Owned Files\\Dreck\\Work\\2026\\C#\\CSharpPractice\\CSharpPractice.csproj",
-        "projectName": "CSharpPractice",
-        "projectPath": "D:\\Owned Files\\Dreck\\Work\\2026\\C#\\CSharpPractice\\CSharpPractice.csproj",
+        "projectUniqueName": "D:\\Owned Files\\Dreck\\Work\\2026\\C#\\CSharpPractice\\practice\\test0\\test0.csproj",
+        "projectName": "test0",
+        "projectPath": "D:\\Owned Files\\Dreck\\Work\\2026\\C#\\CSharpPractice\\practice\\test0\\test0.csproj",
         "packagesPath": "C:\\Users\\dreckiee\\.nuget\\packages\\",
-        "outputPath": "D:\\Owned Files\\Dreck\\Work\\2026\\C#\\CSharpPractice\\obj\\",
+        "outputPath": "D:\\Owned Files\\Dreck\\Work\\2026\\C#\\CSharpPractice\\practice\\test0\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dreckiee\\AppData\\Roaming\\NuGet\\NuGet.Config"
