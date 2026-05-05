@@ -1,0 +1,15 @@
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\bin\Debug\net10.0\movie-watchlist.exe
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\bin\Debug\net10.0\movie-watchlist.deps.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\bin\Debug\net10.0\movie-watchlist.runtimeconfig.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\bin\Debug\net10.0\movie-watchlist.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\bin\Debug\net10.0\movie-watchlist.pdb
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\obj\Debug\net10.0\movie-watchlist.GeneratedMSBuildEditorConfig.editorconfig
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\obj\Debug\net10.0\movie-watchlist.AssemblyInfoInputs.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\obj\Debug\net10.0\movie-watchlist.AssemblyInfo.cs
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\obj\Debug\net10.0\movie-watchlist.csproj.CoreCompileInputs.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\obj\Debug\net10.0\movie-watchlist.sourcelink.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\obj\Debug\net10.0\movie-watchlist.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\obj\Debug\net10.0\refint\movie-watchlist.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\obj\Debug\net10.0\movie-watchlist.pdb
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\obj\Debug\net10.0\movie-watchlist.genruntimeconfig.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\movie-watchlist\obj\Debug\net10.0\ref\movie-watchlist.dll
