@@ -50,7 +50,7 @@ class Program
             Console.WriteLine("Enter the following information: ");
             Movie newMovie = new Movie(ReadString("Title: "),ReadString("Genre: "),ReadDecimal("Rating: ",0,10), YesOrNo("Have you watched it? (Y/N): "));
             watchlist.Add(newMovie);
-            Console.WriteLine("You have successfully added a movie to the watchlist!\n");
+            Console.WriteLine($"You have successfully added {newMovie.Title} to the watchlist!\n");
     }//end of AddMovie method
 
     public static void MarkWatched()
