@@ -24,3 +24,5 @@ My C# learning journey as an aspiring game developer.
 - **Movie Watchlist** — Console app that manages a movie watchlist using `List<Movie>`. Features add, mark as watched, display all, display unwatched, and display top rated movies (rating >= 8). Uses `FindAll()` with lambda expressions to filter by watch status and rating, and a boolean IsWatched property to toggle watch state.
 
 * **Item Inventory** — Console app that manages an RPG item inventory using `List<Item>`. Features add, use, display all, display by type, and display low stock items (quantity <= 2). Uses `FindAll()` with lambda expressions to filter by type and quantity, and a quantity decrement that automatically removes an item when stock reaches zero.
+
+* **Enemy Spawner** — Console app that simulates an enemy spawner using `List<Enemy>`. Features spawn, attack, display all, display by type, and display critical enemies (HP <= 20). Uses `FindAll()` with lambda expressions to filter by type and HP, and a damage system that automatically removes an enemy from the list when HP reaches zero.
