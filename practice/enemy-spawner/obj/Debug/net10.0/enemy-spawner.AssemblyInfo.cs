@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("enemy-spawner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca1ced6ea2a4e2425fb204a51f2eafe3c820ad59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+418c5fdaa3f52406eb25b4df2b5c6a535fb0a7b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("enemy-spawner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("enemy-spawner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
