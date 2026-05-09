@@ -15,13 +15,15 @@ public class Mage : Unit, IHealable
     {
         if (Mana <= 0)
         {
-            Console.WriteLine($"Not enough mana to attack!");
+            Console.WriteLine($"{Name} has not enough mana to attack!");
         }
         else
         {
             Console.WriteLine($"{Name} has attacked {target.Name} for 30 damage!");
+            Console.WriteLine($"{Name} has spent 30 mana to attack!");
             target.TakeDamage(30m);
             Mana -= 30m;
+            Console.WriteLine($"Mana went down to {Mana} Mana from {Mana+30m} Mana!");
         }
     }//end of Attack method
 
@@ -67,7 +69,11 @@ public class Mage : Unit, IHealable
     public void Heal(decimal amount)
     {
         Console.WriteLine($"{Name} has casted \"Heal\"!");
-        if(CurrentHP + amount > MaxHP)
+        if (CurrentHP == MaxHP)
+        {
+            Console.WriteLine($"{Name} is at full HP. Cannot be healed!");
+        }
+        else if (CurrentHP + amount > MaxHP)
         {
             Console.WriteLine($"{Name} has been healed by {MaxHP-CurrentHP} HP!");
             CurrentHP = MaxHP;

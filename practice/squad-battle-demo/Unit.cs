@@ -9,7 +9,7 @@ public abstract class Unit
     {
         Name = name;
         MaxHP = maxHP;
-        CurrentHP = maxHp;
+        CurrentHP = maxHP;
     }
 
     public abstract void Attack(Unit target);

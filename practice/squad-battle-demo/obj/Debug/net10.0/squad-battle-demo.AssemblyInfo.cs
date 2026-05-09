@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("squad-battle-demo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+199be1b664617777bf4802c9e77242a2dfae4f87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+552e95c41bf5495fe04c6aac61f210ca3d4e3bd8")]
 [assembly: System.Reflection.AssemblyProductAttribute("squad-battle-demo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("squad-battle-demo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
