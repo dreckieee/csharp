@@ -28,3 +28,5 @@ My C# learning journey as an aspiring game developer.
 - **Enemy Spawner** — Console app that simulates an enemy spawner using `List<Enemy>`. Features spawn, attack, display all, display by type, and display critical enemies (HP <= 20). Uses `FindAll()` with lambda expressions to filter by type and HP, and a damage system that automatically removes an enemy from the list when HP reaches zero.
 
 - **Battle Demo** — Console app that demonstrates `inheritance`, `interfaces`, and `method overriding` using a battle system. Features a `Boss` class that inherits from `Enemy`, overrides `TakeDamage()` to resist and take half damage, and triggers a phase change with a special attack when HP drops below a threshold. First use of `virtual`, `override`, `: base()`, and type checking with `is`.
+
+- **Squad Battle Demo** — Console app that utilizes `abstract` class, `inheritance`, `interface`, and `overriding` methods in a attack and take damage system. Features a mage, warrior, and archer all inheriting from a unit class. 
