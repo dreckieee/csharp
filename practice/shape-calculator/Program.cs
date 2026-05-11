@@ -15,10 +15,15 @@ class Program
         shapes.Add(newRectangle);
         shapes.Add(newTriangle);
 
+        Console.WriteLine();
+
         foreach (Shape s in shapes)
         {
             Console.WriteLine($"Shape name: {s.Name} -- Area: { Math.Round(s.GetArea(), 2) }");
         }
+        Console.Write("Press enter key to continue..");
+        Console.ReadLine();
+        Console.WriteLine();
 
     }//end of Main method
 
