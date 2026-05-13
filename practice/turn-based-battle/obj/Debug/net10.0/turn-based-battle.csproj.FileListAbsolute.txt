@@ -1,0 +1,15 @@
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\bin\Debug\net10.0\turn-based-battle.exe
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\bin\Debug\net10.0\turn-based-battle.deps.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\bin\Debug\net10.0\turn-based-battle.runtimeconfig.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\bin\Debug\net10.0\turn-based-battle.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\bin\Debug\net10.0\turn-based-battle.pdb
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\obj\Debug\net10.0\turn-based-battle.GeneratedMSBuildEditorConfig.editorconfig
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\obj\Debug\net10.0\turn-based-battle.AssemblyInfoInputs.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\obj\Debug\net10.0\turn-based-battle.AssemblyInfo.cs
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\obj\Debug\net10.0\turn-based-battle.csproj.CoreCompileInputs.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\obj\Debug\net10.0\turn-based-battle.sourcelink.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\obj\Debug\net10.0\turn-based-battle.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\obj\Debug\net10.0\refint\turn-based-battle.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\obj\Debug\net10.0\turn-based-battle.pdb
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\obj\Debug\net10.0\turn-based-battle.genruntimeconfig.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\turn-based-battle\obj\Debug\net10.0\ref\turn-based-battle.dll
