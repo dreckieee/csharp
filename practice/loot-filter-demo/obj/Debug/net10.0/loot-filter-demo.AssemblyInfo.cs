@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("loot-filter-demo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d64cd78a2934d64b9ff9282a2e871958e4049c10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc00adff1c45d3e596ba1e7f33d65f27bb532c6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("loot-filter-demo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("loot-filter-demo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
