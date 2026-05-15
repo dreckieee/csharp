@@ -23,14 +23,29 @@ class Program
         Console.Write(heroName);
         Console.ResetColor();
         Console.WriteLine("!");
-        Console.WriteLine($"{hero1.Name}, please defeat the dragon for us!\n\n");
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.Write($"{hero1.Name}");
+        Console.ResetColor();
+        Console.Write($", please defeat the ");
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.Write($"{dragon1.Name}");
+        Console.ResetColor();
+        Console.WriteLine(" for us!\n\n");
         while(hero1.HP > 0 && dragon1.HP > 0)
         {
-            Console.Write($"{hero1.Name} -- {hero1.HP}HP");
-            Console.Write("\tVS\t");
-            Console.WriteLine($"{dragon1.Name} -- {dragon1.HP}HP");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write($"\n{hero1.Name}");
+            Console.ResetColor();
+            Console.Write($" ══ {hero1.HP}HP");
+            Console.Write("\t\tVS\t");
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write($"{dragon1.Name}");
+            Console.ResetColor();
+            Console.Write($" ══ {dragon1.HP}HP");
             Console.Write("\n1 -- Attack\n2 -- Defend\n3 -- Run\n");
-            int command = ReadInt("Choose a command: ",1,4);
+
+            int command = ReadInt("Choose a command: ",1,3);
             if (command == 1)
             {
                 hero1.Attack(dragon1);
@@ -62,6 +77,7 @@ class Program
                 Console.WriteLine("DEFEAT!\n");
                 Console.Write("Press enter key to continue..");
                 Console.ReadLine();
+                break;
             }
             hero1.ResetDefend();
         }
