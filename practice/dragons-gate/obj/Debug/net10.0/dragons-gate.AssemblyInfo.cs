@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dragons-gate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5578599cedc9828a0167dfce1b7f3fd997d98593")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88727991fee135ea36a05af09c347594c1a88966")]
 [assembly: System.Reflection.AssemblyProductAttribute("dragons-gate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dragons-gate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
