@@ -1,0 +1,15 @@
+d:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\bin\Debug\net10.0\grade-calculator.exe
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\bin\Debug\net10.0\grade-calculator.deps.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\bin\Debug\net10.0\grade-calculator.runtimeconfig.json
+d:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\bin\Debug\net10.0\grade-calculator.dll
+d:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\bin\Debug\net10.0\grade-calculator.pdb
+d:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\obj\Debug\net10.0\grade-calculator.GeneratedMSBuildEditorConfig.editorconfig
+d:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\obj\Debug\net10.0\grade-calculator.AssemblyInfoInputs.cache
+d:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\obj\Debug\net10.0\grade-calculator.AssemblyInfo.cs
+d:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\obj\Debug\net10.0\grade-calculator.csproj.CoreCompileInputs.cache
+d:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\obj\Debug\net10.0\grade-calculator.sourcelink.json
+d:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\obj\Debug\net10.0\grade-calculator.dll
+d:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\obj\Debug\net10.0\refint\grade-calculator.dll
+d:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\obj\Debug\net10.0\grade-calculator.pdb
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\obj\Debug\net10.0\grade-calculator.genruntimeconfig.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\grade-calculator\obj\Debug\net10.0\ref\grade-calculator.dll

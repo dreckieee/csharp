@@ -1,0 +1,15 @@
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\bin\Debug\net10.0\item-inventory.exe
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\bin\Debug\net10.0\item-inventory.deps.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\bin\Debug\net10.0\item-inventory.runtimeconfig.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\bin\Debug\net10.0\item-inventory.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\bin\Debug\net10.0\item-inventory.pdb
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\obj\Debug\net10.0\item-inventory.GeneratedMSBuildEditorConfig.editorconfig
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\obj\Debug\net10.0\item-inventory.AssemblyInfoInputs.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\obj\Debug\net10.0\item-inventory.AssemblyInfo.cs
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\obj\Debug\net10.0\item-inventory.csproj.CoreCompileInputs.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\obj\Debug\net10.0\item-inventory.sourcelink.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\obj\Debug\net10.0\item-inventory.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\obj\Debug\net10.0\refint\item-inventory.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\obj\Debug\net10.0\item-inventory.pdb
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\obj\Debug\net10.0\item-inventory.genruntimeconfig.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\item-inventory\obj\Debug\net10.0\ref\item-inventory.dll

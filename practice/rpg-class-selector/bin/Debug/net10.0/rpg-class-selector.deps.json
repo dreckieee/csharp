@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "rpg-class-selector/1.0.0": {
+        "runtime": {
+          "rpg-class-selector.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "rpg-class-selector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\bin\Debug\net10.0\dice-roller.exe
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\bin\Debug\net10.0\dice-roller.deps.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\bin\Debug\net10.0\dice-roller.runtimeconfig.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\bin\Debug\net10.0\dice-roller.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\bin\Debug\net10.0\dice-roller.pdb
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\obj\Debug\net10.0\dice-roller.GeneratedMSBuildEditorConfig.editorconfig
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\obj\Debug\net10.0\dice-roller.AssemblyInfoInputs.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\obj\Debug\net10.0\dice-roller.AssemblyInfo.cs
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\obj\Debug\net10.0\dice-roller.csproj.CoreCompileInputs.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\obj\Debug\net10.0\dice-roller.sourcelink.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\obj\Debug\net10.0\dice-roller.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\obj\Debug\net10.0\refint\dice-roller.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\obj\Debug\net10.0\dice-roller.pdb
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\obj\Debug\net10.0\dice-roller.genruntimeconfig.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dice-roller\obj\Debug\net10.0\ref\dice-roller.dll

@@ -1,0 +1,15 @@
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\bin\Debug\net10.0\shopping-list.exe
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\bin\Debug\net10.0\shopping-list.deps.json
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\bin\Debug\net10.0\shopping-list.runtimeconfig.json
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\bin\Debug\net10.0\shopping-list.dll
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\bin\Debug\net10.0\shopping-list.pdb
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\obj\Debug\net10.0\shopping-list.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\obj\Debug\net10.0\shopping-list.AssemblyInfoInputs.cache
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\obj\Debug\net10.0\shopping-list.AssemblyInfo.cs
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\obj\Debug\net10.0\shopping-list.csproj.CoreCompileInputs.cache
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\obj\Debug\net10.0\shopping-list.sourcelink.json
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\obj\Debug\net10.0\shopping-list.dll
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\obj\Debug\net10.0\refint\shopping-list.dll
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\obj\Debug\net10.0\shopping-list.pdb
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\obj\Debug\net10.0\shopping-list.genruntimeconfig.cache
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\shopping-list\obj\Debug\net10.0\ref\shopping-list.dll

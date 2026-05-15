@@ -1,0 +1,15 @@
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\bin\Debug\net10.0\student-registry.exe
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\bin\Debug\net10.0\student-registry.deps.json
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\bin\Debug\net10.0\student-registry.runtimeconfig.json
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\bin\Debug\net10.0\student-registry.dll
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\bin\Debug\net10.0\student-registry.pdb
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\obj\Debug\net10.0\student-registry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\obj\Debug\net10.0\student-registry.AssemblyInfoInputs.cache
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\obj\Debug\net10.0\student-registry.AssemblyInfo.cs
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\obj\Debug\net10.0\student-registry.csproj.CoreCompileInputs.cache
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\obj\Debug\net10.0\student-registry.sourcelink.json
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\obj\Debug\net10.0\student-registry.dll
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\obj\Debug\net10.0\refint\student-registry.dll
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\obj\Debug\net10.0\student-registry.pdb
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\obj\Debug\net10.0\student-registry.genruntimeconfig.cache
+C:\Users\denis\OneDrive\Desktop\Dreck\csharp\practice\student-registry\obj\Debug\net10.0\ref\student-registry.dll

@@ -1,0 +1,15 @@
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\bin\Debug\net10.0\dragons-gate.exe
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\bin\Debug\net10.0\dragons-gate.deps.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\bin\Debug\net10.0\dragons-gate.runtimeconfig.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\bin\Debug\net10.0\dragons-gate.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\bin\Debug\net10.0\dragons-gate.pdb
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\obj\Debug\net10.0\dragons-gate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\obj\Debug\net10.0\dragons-gate.AssemblyInfoInputs.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\obj\Debug\net10.0\dragons-gate.AssemblyInfo.cs
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\obj\Debug\net10.0\dragons-gate.csproj.CoreCompileInputs.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\obj\Debug\net10.0\dragons-gate.sourcelink.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\obj\Debug\net10.0\dragons-gate.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\obj\Debug\net10.0\refint\dragons-gate.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\obj\Debug\net10.0\dragons-gate.pdb
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\obj\Debug\net10.0\dragons-gate.genruntimeconfig.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\dragons-gate\obj\Debug\net10.0\ref\dragons-gate.dll

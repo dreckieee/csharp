@@ -1,0 +1,15 @@
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\bin\Debug\net10.0\enemy-spawner.exe
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\bin\Debug\net10.0\enemy-spawner.deps.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\bin\Debug\net10.0\enemy-spawner.runtimeconfig.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\bin\Debug\net10.0\enemy-spawner.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\bin\Debug\net10.0\enemy-spawner.pdb
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\obj\Debug\net10.0\enemy-spawner.GeneratedMSBuildEditorConfig.editorconfig
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\obj\Debug\net10.0\enemy-spawner.AssemblyInfoInputs.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\obj\Debug\net10.0\enemy-spawner.AssemblyInfo.cs
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\obj\Debug\net10.0\enemy-spawner.csproj.CoreCompileInputs.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\obj\Debug\net10.0\enemy-spawner.sourcelink.json
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\obj\Debug\net10.0\enemy-spawner.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\obj\Debug\net10.0\refint\enemy-spawner.dll
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\obj\Debug\net10.0\enemy-spawner.pdb
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\obj\Debug\net10.0\enemy-spawner.genruntimeconfig.cache
+D:\Owned Files\Dreck\Work\2026\C#\CSharpPractice\practice\enemy-spawner\obj\Debug\net10.0\ref\enemy-spawner.dll
