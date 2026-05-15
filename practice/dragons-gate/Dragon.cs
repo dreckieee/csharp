@@ -13,10 +13,10 @@ public class Dragon : Character
     {
         Console.Write($"{Name} is now ATTACKING! ");
         float damage = rng.Next(2,61);
-        float actualDamage = damage * DefenseMultiplier;
+        float actualDamage = damage * target.DefenseMultiplier;
         target.HP -= actualDamage;
         Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine($"{damage} damage has been dealt to {target.Name}!");
+        Console.WriteLine($"{actualDamage} damage has been dealt to {target.Name}!");
         Console.ResetColor();
     }
 

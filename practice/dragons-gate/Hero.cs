@@ -13,9 +13,9 @@ public class Hero : Character
         Console.Write($"{Name} has chosen to ATTACK! ");
         Console.ForegroundColor = ConsoleColor.Blue;
         float damage = rng.Next(20,29);
-        float actualDamage = damage * DefenseMultiplier;
+        float actualDamage = damage * target.DefenseMultiplier;
         target.HP -= actualDamage;
-        Console.WriteLine($"{damage} damage has been dealt to {target.Name}!");
+        Console.WriteLine($"{actualDamage} damage has been dealt to {target.Name}!");
         Console.ResetColor();
     }
 
