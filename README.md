@@ -1,7 +1,7 @@
 # C# Practice Projects
 
 My C# learning journey as an aspiring game developer.
-20 projects built in 24 days covering fundamentals through OOP,
+21 projects built in 25 days covering fundamentals through OOP,
 inheritance, polymorphism, and abstract class architecture.
 
 ---
@@ -13,7 +13,7 @@ Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report Sys
 Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner
 
 ## Phase 3 — OOP & Inheritance
-Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry
+Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop
 
 ---
 
@@ -58,3 +58,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **Dragon's Gate** — Console app that simulates a turn-based RPG battle against a dragon using `abstract classes` and `inheritance`. Hero and Dragon both inherit from an abstract Character class with a backing field that clamps HP between 0 and MaxHP. Features a `DefenseMultiplier` system using `protected set` that reduces incoming damage when the Hero defends, and a game loop with reusable `ReadString()` and `ReadInt()` input validation helpers.
 
 - **Guild Registry** — Console app that manages a guild of Warriors, Mages, and Rangers through a shared abstract Member class. Each role inherits from Member and overrides Promote() with its own rank thresholds — using `protected set` to allow subclasses to write to Rank while blocking outside code. A `List<Member>` holds all roles, with `Find()` and `FindAll()` lambda expressions to search and filter. Uses `is` pattern matching to inspect a base-class reference at runtime and access role-specific stats. Demonstrates `polymorphism`, `inheritance`, `protected set`, `lambda expressions`, and `is` pattern matching.
+
+- **Potion Shop** — Console app that manages a potion shop inventory using interfaces, polymorphism, and lambda expressions. `IRegularPotion` and `IPremiumPotion` form a two-tier interface contract, with `IPremiumPotion` inheriting from `IRegularPotion`. An abstract `Potion` class implements `IRegularPotion` as the shared base for `HealingPotion`, `ManaPotion`, and their premium variants — all stored in a single `List<Potion>`. Uses `is` pattern matching to detect and cast premium potions at runtime, and lambda expressions with `Find()`, `FindAll()`, `OrderBy()`, and `OrderByDescending()` for inventory filtering and sorting.
