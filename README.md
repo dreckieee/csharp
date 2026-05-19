@@ -1,7 +1,6 @@
 # C# Practice Projects
 
-My C# learning journey as an aspiring game developer.
-22 projects built in 26 days covering fundamentals through OOP,
+23 projects built in 27 days covering fundamentals through OOP,
 inheritance, polymorphism, and abstract class architecture.
 
 ---
@@ -13,52 +12,54 @@ Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report Sys
 Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner
 
 ## Phase 3 — OOP & Inheritance
-Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop
+Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop, Crime Report Demo
 
 ---
 
 ## Projects
 
-- **Age Calculator** — Console app that calculates exact age from birthdate using `DateTime`
+- **Age Calculator** — Console app that calculates exact age from birthdate using `DateTime`.
 
-- **Grade Calculator** — Console app that lets the user decide on how many subjects. The program uses `loop` to ask for user input through each score, calculates the average, and outputs the grade.
+- **Grade Calculator** — Console app that averages n subject scores and outputs a final grade using a `for` loop and `decimal` arithmetic.
 
-- **Number Analyzer** — Console app that sums, averages, and finds the highest and lowest value out of n numbers entered by the user. The program uses `arrays` to store the inputs and `multiple methods` to perform each calculation.
+- **Number Analyzer** — Console app that finds the sum, average, highest, and lowest of n numbers using `arrays`, multiple methods, and full `input validation`.
 
-- **Dice Roller** — Console app that rolls three dice, calculates the total score with bonus logic for doubles and triples, and determines the prize based on scoring tiers. Uses the `Random` class and `.Next()` method to simulate dice rolls, and conditional statements to handle scoring and prize logic.
+- **Dice Roller** — Console app that rolls three dice and awards prizes based on scoring tiers using the `Random` class and conditional logic for doubles and triples.
 
-- **Grade Report System** — Console app that calculates and displays the name, average grade, and equivalent letter rating of n number of students with 5 exam scores each. Uses `2D arrays` to store scores, `multiple methods` to separate logic, and full `input validation` on every entry point.
+- **Grade Report System** — Console app that calculates the average grade and letter rating for n students with 5 scores each using `2D arrays`, multiple methods, and full input validation.
 
-- **Character Card** — Console app that demonstrates core `OOP` concepts using a Character class with `properties`, a `constructor`, and methods. Features DisplayStats(), LevelUp(), TakeDamage(), and IsAlive() to simulate a basic RPG character system across two separate class files.
+- **Mini Character Card Generator** — Console app that generates random RPG stats and calculates a power rating with a tier label using `type casting`, `Convert.ToInt32()`, `PadRight()`/`PadLeft()` for column alignment, and `string arrays` for stat labels.
 
-- **Party Manager** — Console app that manages an RPG party of up to 4 heroes using three separate classes. Features AddHero(), RemoveHero(), LevelUpHero(), DisplayParty(), and DisplayTotalHP() in a Party class that encapsulates a `List<Hero>`. First use of `List<T>`, lambda expressions with `Find()`, and multi-class OOP architecture.
+- **Character Card** — A `Character` class with a constructor, properties, and methods — `LevelUp()`, `TakeDamage()`, `IsAlive()` — split across two files.
 
-- **Shopping List Manager** — Console app that manages a shopping list using `List<string>`. Features add, remove, display, and clear functions through a menu-driven loop. Focused on practicing `List<T>` operations without class architecture.
+- **Party Manager** — Console app that manages an RPG party using three classes — `Hero`, `Party`, and `Program`. `Party` encapsulates a `List<Hero>` with `Find()` lambda expressions for search and filtering.
 
-- **Student Registry** — Console app that manages a student registry using `List<Student>`. Features add, search, display all, and display passing students (grade >= 75). First use of `FindAll()` for list filtering and computed properties for auto-calculating pass/fail status based on grade.
+- **Shopping List Manager** — Console app that manages a `List<string>` through a menu-driven loop covering add, remove, display, and clear operations.
 
-- **Movie Watchlist** — Console app that manages a movie watchlist using `List<Movie>`. Features add, mark as watched, display all, display unwatched, and display top rated movies (rating >= 8). Uses `FindAll()` with lambda expressions to filter by watch status and rating, and a boolean IsWatched property to toggle watch state.
+- **Student Registry** — Console app that manages a student list with pass/fail filtering using `FindAll()` and a computed property for auto-calculated status.
 
-- **Item Inventory** — Console app that manages an RPG item inventory using `List<Item>`. Features add, use, display all, display by type, and display low stock items (quantity <= 2). Uses `FindAll()` with lambda expressions to filter by type and quantity, and a quantity decrement that automatically removes an item when stock reaches zero.
+- **Movie Watchlist** — Console app that manages a movie list with watch status and rating filters using `FindAll()` lambdas and a boolean toggle for watch state.
 
-- **Enemy Spawner** — Console app that simulates an enemy spawner using `List<Enemy>`. Features spawn, attack, display all, display by type, and display critical enemies (HP <= 20). Uses `FindAll()` with lambda expressions to filter by type and HP, and a damage system that automatically removes an enemy from the list when HP reaches zero.
+- **Item Inventory** — Console app that manages an RPG item inventory with quantity tracking. Items auto-remove at zero stock using `FindAll()` and quantity decrement logic.
 
-- **Battle Demo** — Console app that demonstrates `inheritance`, `interfaces`, and `method overriding` using a battle system. Features a Boss class that inherits from Enemy, overrides TakeDamage() to resist and take half damage, and triggers a phase change with a special attack when HP drops below a threshold. First use of `virtual`, `override`, `: base()`, and type checking with `is`.
+- **Enemy Spawner** — Console app that simulates an enemy list with a damage system. Enemies auto-remove at zero HP using `FindAll()` filtered by type and HP threshold.
 
-- **Squad Battle Demo** — Console app that demonstrates `polymorphism`, `abstract` classes, `inheritance`, and `interfaces` in an RPG battle system. Warrior, Mage, and Archer all inherit from an abstract Unit class with different attack patterns, stored in a `List<Unit>` where a single loop calls Attack() on each — firing different behavior automatically. Mage overrides TakeDamage() using Mana as a magic shield, implements `IHealable`, and Archer features a 30% critical hit chance for double damage.
+- **Battle Demo** — Console app with a `Boss` inheriting from `Enemy` and overriding `TakeDamage()` to take half damage and trigger a phase change below an HP threshold. Uses `virtual`, `override`, `: base()`, and `is`.
 
-- **Shape Calculator** — Console app that demonstrates `polymorphism`, `abstract` classes, and `inheritance` in a shape calculator. Circle, Rectangle, and Triangle all inherit from an abstract Shape class. A single `foreach` loop calls GetArea() on each object — returning different calculations per shape to showcase polymorphism.
+- **Squad Battle Demo** — RPG battle system with `Warrior`, `Mage`, and `Archer` inheriting from an abstract `Unit` class stored in a `List<Unit>`. `Mage` overrides `TakeDamage()` using Mana as a damage shield and implements `IHealable`. `Archer` has a 30% critical hit chance.
 
-- **RPG Class Selector** — Console app where the user names their hero and selects a class via switch statement. Knight, Wizard, and Rogue all inherit from an abstract Hero class and override GetStats() to display their own unique stat block. Demonstrates `polymorphism`, `abstract` classes, `inheritance`, and `switch` statements.
+- **Shape Calculator** — `Circle`, `Rectangle`, and `Triangle` inherit from an abstract `Shape` class. A single `foreach` loop calls `GetArea()` on each, returning different calculations per type.
 
-- **Turn-Based Battle** — Console app that demonstrates `polymorphism` using an abstract Fighter class inherited by Swordsman and Archer. Each overrides Attack() with different logic — Swordsman deals consistent flat damage while Archer hits lighter but has a 30% critical hit chance for double damage. Turn order is randomized each round and the battle runs inside a `while` loop until one fighter's HP reaches zero.
+- **RPG Class Selector** — `Knight`, `Wizard`, and `Rogue` inherit from an abstract `Hero` class and override `GetStats()`. User input drives class instantiation via a `switch` statement.
 
-- **Loot Filter Demo** — Console app that demonstrates `polymorphism` using an abstract Enemy class inherited by Goblin, Orc, and Dragon. Two interfaces — `ILootable` (all 3) and `IElite` (Orc and Dragon only). Uses `is` pattern matching to filter which enemies drop loot and which receive an elite title at runtime.
+- **Turn-Based Battle** — `Swordsman` and `Archer` inherit from an abstract `Fighter` class and override `Attack()` with different damage logic. Turn order is randomized each round inside a `while` loop game loop.
 
-- **Dragon's Gate** — Console app that simulates a turn-based RPG battle against a dragon using `abstract classes` and `inheritance`. Hero and Dragon both inherit from an abstract Character class with a backing field that clamps HP between 0 and MaxHP. Features a `DefenseMultiplier` system using `protected set` that reduces incoming damage when the Hero defends, and a game loop with reusable `ReadString()` and `ReadInt()` input validation helpers.
+- **Loot Filter Demo** — `Goblin`, `Orc`, and `Dragon` inherit from an abstract `Enemy` class and implement `ILootable`. `Orc` and `Dragon` additionally implement `IElite`. Uses `is` pattern matching to filter loot drops and elite status at runtime across a `List<Enemy>`.
 
-- **Guild Registry** — Console app that manages a guild of Warriors, Mages, and Rangers through a shared abstract Member class. Each role inherits from Member and overrides Promote() with its own rank thresholds — using `protected set` to allow subclasses to write to Rank while blocking outside code. A `List<Member>` holds all roles, with `Find()` and `FindAll()` lambda expressions to search and filter. Uses `is` pattern matching to inspect a base-class reference at runtime and access role-specific stats. Demonstrates `polymorphism`, `inheritance`, `protected set`, `lambda expressions`, and `is` pattern matching.
+- **Dragon's Gate** — Turn-based RPG battle where `Hero` and `Dragon` inherit from an abstract `Character` class. HP is clamped with `Math.Clamp()` via a private backing field. A `DefenseMultiplier` property using `protected set` reduces incoming damage when the hero defends.
 
-- **Potion Shop** — Console app that manages a potion shop inventory using interfaces, polymorphism, and lambda expressions. `IRegularPotion` and `IPremiumPotion` form a two-tier interface contract, with `IPremiumPotion` inheriting from `IRegularPotion`. An abstract `Potion` class implements `IRegularPotion` as the shared base for `HealingPotion`, `ManaPotion`, and their premium variants — all stored in a single `List<Potion>`. Uses `is` pattern matching to detect and cast premium potions at runtime, and lambda expressions with `Find()`, `FindAll()`, `OrderBy()`, and `OrderByDescending()` for inventory filtering and sorting.
+- **Guild Registry** — Guild management system where `Warrior`, `Mage`, and `Ranger` inherit from an abstract `Member` class and override `Promote()` with role-specific rank thresholds. Uses `protected set` on `Rank`, `Find()`/`FindAll()` lambdas, and `is` pattern matching to access subclass-specific stats from a `List<Member>`.
 
-- **Mini Character Card Generator** — Console app that takes a character name as input, randomly generates stats (HP, Attack, Defense, Speed), and calculates a power rating with a descriptive tier label. Applies `type casting` and `Convert.ToInt32()`, `string formatting` with `PadRight()` and `PadLeft()`, `string arrays` for stat labels, `decimal` arithmetic for the power rating, and a reusable `ReadString()` input validation helper. All display logic is separated into dedicated methods.
+- **Potion Shop** — Potion inventory system with two-tier interface inheritance — `IPremiumPotion : IRegularPotion`. An abstract `Potion` class serves as the shared base. Uses `is` pattern matching to detect premium potions at runtime and `OrderBy()`/`OrderByDescending()` for inventory sorting.
+
+- **Crime Report Demo** — Console app that manages suspects across three roles — `Civilian`, `Criminal`, and `Witness` — all inheriting from an abstract `Suspect` class. `ICriminal` and `IWitness` enforce role-specific methods detected at runtime via `is` pattern matching on a `List<Suspect>`. Uses `enum` for type-safe status values.
