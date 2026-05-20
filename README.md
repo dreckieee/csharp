@@ -1,6 +1,6 @@
 # C# Practice Projects
 
-23 projects built in 27 days covering fundamentals through OOP,
+24 projects built in 28 days covering fundamentals through OOP,
 inheritance, polymorphism, and abstract class architecture.
 
 ---
@@ -12,7 +12,7 @@ Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report Sys
 Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner
 
 ## Phase 3 — OOP & Inheritance
-Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop, Crime Report Demo
+Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop, Crime Report Demo, Tech Support Ticket
 
 ---
 
@@ -63,3 +63,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **Potion Shop** — Potion inventory system with two-tier interface inheritance — `IPremiumPotion : IRegularPotion`. An abstract `Potion` class serves as the shared base. Uses `is` pattern matching to detect premium potions at runtime and `OrderBy()`/`OrderByDescending()` for inventory sorting.
 
 - **Crime Report Demo** — Console app that manages suspects across three roles — `Civilian`, `Criminal`, and `Witness` — all inheriting from an abstract `Suspect` class. `ICriminal` and `IWitness` enforce role-specific methods detected at runtime via `is` pattern matching on a `List<Suspect>`. Uses `enum` for type-safe status values.
+
+- **Tech Support Ticket** — Console app that manages support tickets across three types — `BugReport`, `FeatureRequest`, and `CrashReport` — all inheriting from an abstract `Ticket` class. `IBugReport`, `IFeatureRequest`, and `ICrashReport` enforce type-specific methods detected at runtime via `is` pattern matching on a `List<Ticket>`. Uses `enum` for `TicketPriority` with Low, Medium, and High values.
