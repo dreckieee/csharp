@@ -1,6 +1,6 @@
 # C# Practice Projects
 
-24 projects built in 28 days covering fundamentals through OOP,
+25 projects built in 29 days covering fundamentals through OOP,
 inheritance, polymorphism, and abstract class architecture.
 
 ---
@@ -9,7 +9,7 @@ inheritance, polymorphism, and abstract class architecture.
 Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator
 
 ## Phase 2 — Collections & Lists
-Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner
+Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor
 
 ## Phase 3 — OOP & Inheritance
 Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop, Crime Report Demo, Tech Support Ticket
@@ -65,3 +65,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **Crime Report Demo** — Console app that manages suspects across three roles — `Civilian`, `Criminal`, and `Witness` — all inheriting from an abstract `Suspect` class. `ICriminal` and `IWitness` enforce role-specific methods detected at runtime via `is` pattern matching on a `List<Suspect>`. Uses `enum` for type-safe status values.
 
 - **Tech Support Ticket** — Console app that manages support tickets across three types — `BugReport`, `FeatureRequest`, and `CrashReport` — all inheriting from an abstract `Ticket` class. `IBugReport`, `IFeatureRequest`, and `ICrashReport` enforce type-specific methods detected at runtime via `is` pattern matching on a `List<Ticket>`. Uses `enum` for `TicketPriority` with Low, Medium, and High values.
+
+- **Dialogue Processor** — Console app with three string-processing classes: `DialogueTemplate` replaces named `{placeholders}` at runtime using a `Dictionary<string, string>`, `DialogueFilter` scans input against a banned word list using case-insensitive `Contains()`, and `CommandParser` trims, lowercases, and splits raw input via `Split(':')` into a `ParsedCommand` data class holding `Action`, `Target`, and `Value`.
