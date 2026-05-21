@@ -28,7 +28,7 @@ class AgeCalculator
             }
 
         Console.WriteLine("\nDreckieee should be "+currentAge+" years old today"+" ("+currentMonth+"/"+currentDay+"/"+currentYear+").");
-        Console.WriteLine("Tama ka jan! Tanda ko na wahaha\n");      
+        Console.WriteLine("Tama ka jan! Tanda ko na wahaha\n");     
     }//end of Main()
 }//end of class Program
 
