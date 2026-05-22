@@ -4,43 +4,52 @@ class Program
 {
     static void Main()
     {
-        string template = "You dealt {damage} damage to {enemy}.";
-        DialogueTemplate dialogue1 = new DialogueTemplate (template);
-        Dictionary<string, string> placeholders = new Dictionary<string, string>();
-        placeholders.Add("damage", "15");
-        placeholders.Add("enemy", "Goblin");
-        string result = dialogue1.Process(placeholders);
-        Console.WriteLine($"This is the result: {result}");
+        string template = "You have {action} {target} for {value} damage";
+        List<string> bannedWords = new List<string>();
+        bannedWords.Add("fuck");
+        bannedWords.Add("bitch");
+        bannedWords.Add("motherfucker");
+        bannedWords.Add("shit");
+        bannedWords.Add("nigger");
+        bannedWords.Add("cunt");
 
-        List<string> bannedWordList = new List<string>();
-        bannedWordList.Add("idiot");
-        bannedWordList.Add("bitch");
-        bannedWordList.Add("fuck");
+        DialogueSystem processor = new DialogueSystem(template, bannedWords);
 
-        DialogueFilter dialogueFilter = new DialogueFilter(bannedWordList);
-        string banCheck1 = "yeah right fuck you!";
-        string banCheck2 = "let me be your BITCH";
-        string banCheck3 = "i love you";
-        
-        CheckBan(banCheck1, dialogueFilter);
-        CheckBan(banCheck2, dialogueFilter);
-        CheckBan(banCheck3, dialogueFilter);
+        while (true)
+        {
+            string prompt = "Write a command for your character (enter x to exit program): ";
+            string? input = ReadString(prompt);
 
-        string command = "  Attack:Goblin:15  ";
-        CommandParser parser = new CommandParser(command);
-        ParsedCommand parsed = parser.Parse();
-
-        Console.WriteLine($"\nCOMMAND PARSE CHECK -- \"{command}\"");
-        Console.WriteLine($"Action: {parsed.Action}");
-        Console.WriteLine($"Target: {parsed.Target}");
-        Console.WriteLine($"Value:  {parsed.Value}");
-        
+            if(input == "x") 
+            {
+                Console.WriteLine("\nExiting program..");
+                Console.Write("Press enter key to continue..");
+                Console.ReadLine();
+                break;
+            }
+            else
+            {
+                string command = processor.ProcessCommand(input);
+                Console.WriteLine(command);
+            }
+        }
     }//end of Main method
 
-    static void CheckBan (string dialogue, DialogueFilter filter)
+    public static string ReadString(string prompt)
     {
-        Console.WriteLine($"\nBAN CHECK -- \"{dialogue}\"");
-        if (!filter.IsClean(dialogue)) {Console.WriteLine("You cannot speak bad words!");}
-        else {Console.WriteLine("You have spoken good words only");}
-    }
+        while (true)
+        {
+            Console.Write(prompt);
+            string? input = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                Console.WriteLine("Cannot be empty. Try again.");
+            }
+            else
+            {
+                return input;
+            }
+        }
+    }//end of ReadString method
+
 }//end of Program

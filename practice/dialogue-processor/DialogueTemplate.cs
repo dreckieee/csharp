@@ -1,6 +1,6 @@
 public class DialogueTemplate
 {
-    public string Template {get; set;}
+    public string Template {get; private set;}
     public DialogueTemplate (string template)
     {
         Template = template;

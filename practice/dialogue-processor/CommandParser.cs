@@ -2,7 +2,7 @@ using System;
 
 public class CommandParser
 {
-    public string Command {get; set;}
+    public string Command {get; private set;}
     public CommandParser (string command)
     {
         Command = command;
@@ -10,6 +10,11 @@ public class CommandParser
     public ParsedCommand Parse()
     {
         string normalized = Command.Trim().ToLower();
+        if (string.IsNullOrWhiteSpace(normalized)) 
+        {
+            return new ParsedCommand {IsValid = false};
+            }
+
         string[] parts = normalized.Split(':');
         return new ParsedCommand
         {

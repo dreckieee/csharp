@@ -1,6 +1,6 @@
 public class DialogueFilter
 {
-    public List<string> BannedWords {get; set;}
+    public List<string> BannedWords {get; private set;}
     public DialogueFilter (List<string> bannedWords)
     {
         BannedWords = bannedWords;
