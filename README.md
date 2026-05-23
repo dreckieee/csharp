@@ -69,3 +69,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **Dialogue Processor** — Console app with three string-processing classes: `DialogueTemplate` replaces named `{placeholders}` at runtime using a `Dictionary<string, string>`, `DialogueFilter` scans input against a banned word list using case-insensitive `Contains()`, and `CommandParser` trims, lowercases, and splits raw input via `Split(':')` into a `ParsedCommand` data class holding `Action`, `Target`, and `Value`.
 
 - **Mini Phonebook** — Console app that looks up contacts by name using a `Dictionary<string, string>`. Uses `ContainsKey()` for direct key lookup, `ToLower()` for case-insensitive search, and first-letter capitalization for display formatting.
+
+- **Item Shop** — Console app that 
