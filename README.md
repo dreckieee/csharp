@@ -1,6 +1,6 @@
 # C# Practice Projects
 
-26 projects built in 30 days covering fundamentals through OOP,
+27 projects built in 31 days covering fundamentals through OOP,
 inheritance, polymorphism, abstract class architecture, and collections.
 
 ---
@@ -9,7 +9,7 @@ inheritance, polymorphism, abstract class architecture, and collections.
 Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator
 
 ## Phase 2 — Collections & Lists
-Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook
+Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook, Item Shop
 
 ## Phase 3 — OOP & Inheritance
 Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop, Crime Report Demo, Tech Support Ticket
@@ -70,4 +70,4 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 
 - **Mini Phonebook** — Console app that looks up contacts by name using a `Dictionary<string, string>`. Uses `ContainsKey()` for direct key lookup, `ToLower()` for case-insensitive search, and first-letter capitalization for display formatting.
 
-- **Item Shop** — Console app that 
+- **Item Shop** — Console app that simulates a buy/sell shop system using two classes: `Shop` manages a `Dictionary<string, int>` of item names and prices with `AddItem()`, `RemoveItem()`, `DisplayListing()`, `GetPrice()`, and `DisplayLowerOrEqualPrice()`. `Player` manages a separate `Dictionary<string, int>` for owned items and quantities with `Buy()`, `Sell()`, and `DisplayInventory()`. Uses `ContainsKey()` for existence checks, `dictionary[key]` for direct value access and updates, `Remove()` for key deletion at zero quantity, and `foreach` with `KeyValuePair<string, int>` to iterate over all entries. Sell price is calculated at 50% using integer division.
