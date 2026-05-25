@@ -1,12 +1,12 @@
 # C# Practice Projects
 
-28 projects built in 32 days covering fundamentals through OOP,
+29 projects built in 33 days covering fundamentals through OOP,
 inheritance, polymorphism, abstract class architecture, and collections.
 
 ---
 
 ## Phase 1 — Fundamentals
-Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator
+Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator
 
 ## Phase 2 — Collections & Lists
 Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook, Item Shop
@@ -73,3 +73,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **RPG Item Shop** — `Shop` and `Player` classes each own a `Dictionary<string, int>` — items to prices and items to quantities respectively. `Buy()` and `Sell()` use `ContainsKey()`, `dictionary[key]`, and `Remove()` for inventory management. `foreach` with `KeyValuePair<string, int>` handles display. Sell price calculated at 50% using integer division.
 
 - **Monster Codex** — Abstract `Monster` base class with `GetEntry()` overridden by `CommonMonster` and `BossMonster` subclasses. A `List<Monster>` foreach loop calls `GetEntry()` polymorphically. Keyword search uses `Contains()` and `ToLower()` on the full entry string. Uses `PadRight()` and `ToUpper()` for formatting.
+
+- **Mini Password Validator** — Console app that validates a password against three rules: minimum 8 characters (`Length`), no spaces (`Contains(" ")`), and at least one digit (`char.IsDigit()` inside a `foreach` loop with a `bool` flag). Loops until a valid password is entered or the user exits.
