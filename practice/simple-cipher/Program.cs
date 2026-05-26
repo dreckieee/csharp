@@ -27,45 +27,38 @@ class Program
 
     public static string Encrypt (string message, int shift)
     {
-        string encrypted = "";
-        int count = 0;
         char[] messageChars = message.ToCharArray();
-        foreach (char c in messageChars)
+        for (int x = 0; x < messageChars.Length; x++)
         {
-            if (char.IsLetter(c))
+            if (char.IsLetter(messageChars[x]))
             {
-                if (char.IsUpper(c)) 
-                {
-                    messageChars[count] = (char)(((c - 'A' + shift) % 26) + 'A');
-                }
-                else {messageChars[count] = (char)(((c - 'a' + shift) % 26) + 'a');}
+                if (char.IsUpper(messageChars[x])) {messageChars[x] = (char)(((messageChars[x] - 'A' + shift) % 26) + 'A');}
+                else {messageChars[x] = (char)(((messageChars[x] - 'a' + shift) % 26) + 'a');}
             }
-            count ++;
         }
-        encrypted = new string(messageChars);
+
+        string encrypted = new string(messageChars);
         return encrypted;
     }
 
+
     public static string Decrypt (string message, int shift)
     {
-        string decrypted = "";
-        int count = 0;
         char[] messageChars = message.ToCharArray();
-        foreach (char c in messageChars)
+        for (int x = 0; x < messageChars.Length; x++)
         {
-            if (char.IsLetter(c))
+            if (char.IsLetter(messageChars[x]))
             {
-                if (char.IsUpper(c)) 
-                {
-                    messageChars[count] = (char)(((c - 'A' + (26 - shift)) % 26) + 'A');
-                }
-                else {messageChars[count] = (char)(((c - 'a' + (26 - shift)) % 26) + 'a');}
+                if (char.IsUpper(messageChars[x])) {messageChars[x] = (char)(((messageChars[x] - 'A' + (26 - shift)) % 26) + 'A');}
+                else {messageChars[x] = (char)(((messageChars[x] - 'a' + shift) % 26) + 'a');}
             }
-            count ++;
+            
         }
-        decrypted = new string(messageChars);
-        return decrypted;
+
+        string encrypted = new string(messageChars);
+        return encrypted;
     }
+
 
     public static string ReadString(string prompt)
     {
