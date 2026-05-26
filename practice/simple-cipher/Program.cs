@@ -59,7 +59,7 @@ class Program
                 {
                     messageChars[count] = (char)(((c - 'A' + (26 - shift)) % 26) + 'A');
                 }
-                else {messageChars[count] = (char)(((c - 'A' + (26 - shift)) % 26) + 'A');}
+                else {messageChars[count] = (char)(((c - 'a' + (26 - shift)) % 26) + 'a');}
             }
             count ++;
         }
@@ -90,16 +90,23 @@ class Program
         while (true)
         {
             Console.Write(prompt);
-            if (int.TryParse(Console.ReadLine(), out int result))
+            if(int.TryParse(Console.ReadLine(), out int result))
             {
-                if (result >= min) return result;
+                if (result >= min)
                 {
-                    Console.WriteLine($"Must be at least {min}. Try again.");
+                    return result;
+                }
+                else
+                {
+                    Console.WriteLine($"Invalid. Must be at least {min}. Try again.");
                 }
             }
-            else {Console.WriteLine("Enter an integer. Try again.");}
+            else
+            {
+                Console.WriteLine("Invalid. Enter an integer number. Try again.");
+            }
         }
-    }//end of ReadIntNoMax method
+    }//end ReadIntNoMax method
 
     public static int ReadInt(string prompt, int min, int max)
     {

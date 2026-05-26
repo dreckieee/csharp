@@ -75,3 +75,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **Monster Codex** — Abstract `Monster` base class with `GetEntry()` overridden by `CommonMonster` and `BossMonster` subclasses. A `List<Monster>` foreach loop calls `GetEntry()` polymorphically. Keyword search uses `Contains()` and `ToLower()` on the full entry string. Uses `PadRight()` and `ToUpper()` for formatting.
 
 - **Mini Password Validator** — Console app that validates a password against three rules: minimum 8 characters (`Length`), no spaces (`Contains(" ")`), and at least one digit (`char.IsDigit()` inside a `foreach` loop with a `bool` flag). Loops until a valid password is entered or the user exits.
+
+- **Simple Cipher** — Console app that 
