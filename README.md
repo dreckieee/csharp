@@ -1,6 +1,6 @@
 # C# Practice Projects
 
-30 projects built in 34 days covering fundamentals through OOP,
+31 projects built in 35 days covering fundamentals through OOP,
 inheritance, polymorphism, abstract class architecture, and collections.
 
 ---
@@ -9,7 +9,7 @@ inheritance, polymorphism, abstract class architecture, and collections.
 Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator, Simple Cipher
 
 ## Phase 2 — Collections & Lists
-Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook, Item Shop
+Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook, Item Shop, Item Vault
 
 ## Phase 3 — OOP & Inheritance
 Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop, Crime Report Demo, Tech Support Ticket, Monster Codex
@@ -77,3 +77,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **Mini Password Validator** — Console app that validates a password against three rules: minimum 8 characters (`Length`), no spaces (`Contains(" ")`), and at least one digit (`char.IsDigit()` inside a `foreach` loop with a `bool` flag). Loops until a valid password is entered or the user exits.
 
 - **Simple Cipher** — Console app that encrypts and decrypts messages using a Caesar cipher. `Encrypt()` and `Decrypt()` use `char` arithmetic to shift each letter by a normalized `shift % 26` value, wrapping with `% 26` and casting back to `char`. `char.IsLetter()` and `char.IsUpper()` preserve casing and pass non-letter characters through unchanged.
+
+- **Item Vault** — Console app with generic storage system using a `Vault<T>` class backed by a `List<T>`. `Add()`, `Remove()`, `Find()`, and `ListAll()` operate on any type. `Find()` accepts a `Predicate<T>` delegate and returns `T?`. Tested with three independent types — `Weapon`, `Potion`, and `Currency` — each overriding `ToString()` for display. `WeaponType` uses `enum` for type-safe values.
