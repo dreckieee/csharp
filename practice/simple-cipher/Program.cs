@@ -27,6 +27,7 @@ class Program
 
     public static string Encrypt (string message, int shift)
     {
+        shift = shift % 26;
         char[] messageChars = message.ToCharArray();
         for (int x = 0; x < messageChars.Length; x++)
         {
@@ -44,19 +45,20 @@ class Program
 
     public static string Decrypt (string message, int shift)
     {
+        shift = shift % 26;
         char[] messageChars = message.ToCharArray();
         for (int x = 0; x < messageChars.Length; x++)
         {
             if (char.IsLetter(messageChars[x]))
             {
                 if (char.IsUpper(messageChars[x])) {messageChars[x] = (char)(((messageChars[x] - 'A' + (26 - shift)) % 26) + 'A');}
-                else {messageChars[x] = (char)(((messageChars[x] - 'a' + shift) % 26) + 'a');}
+                else {messageChars[x] = (char)(((messageChars[x] - 'a' + (26 - shift)) % 26) + 'a');}
             }
             
         }
 
-        string encrypted = new string(messageChars);
-        return encrypted;
+        string decrypted = new string(messageChars);
+        return decrypted;
     }
 
 
@@ -100,28 +102,6 @@ class Program
             }
         }
     }//end ReadIntNoMax method
-
-    public static int ReadInt(string prompt, int min, int max)
-    {
-        while (true)
-        {
-            Console.Write(prompt);
-            if (int.TryParse(Console.ReadLine(), out int result))
-            {
-                if (result >= min && result <= max)
-                {
-                    return result;
-                }
-                else
-                {
-                    Console.WriteLine($"Invalid. Input must be a minimum of {min} and maximum of {max}. Try again.");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Invalid. Enter an integer number. Try again.");
-            }
-        }
-    }//end of ReadInt method    
+  
 
 }//end of Program class

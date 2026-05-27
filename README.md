@@ -76,4 +76,4 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 
 - **Mini Password Validator** — Console app that validates a password against three rules: minimum 8 characters (`Length`), no spaces (`Contains(" ")`), and at least one digit (`char.IsDigit()` inside a `foreach` loop with a `bool` flag). Loops until a valid password is entered or the user exits.
 
-- **Simple Cipher** — Console app that encrypts and decrypts messages using a Caesar cipher. Shifts each letter by a user-chosen number using `char` arithmetic and modulo wrap-around. `char.IsLetter()`, `char.IsUpper()`, and `char.IsLower()` handle mixed input while passing non-letter characters through unchanged.
+- **Simple Cipher** — Console app that encrypts and decrypts messages using a Caesar cipher. `Encrypt()` and `Decrypt()` use `char` arithmetic to shift each letter by a normalized `shift % 26` value, wrapping with `% 26` and casting back to `char`. `char.IsLetter()` and `char.IsUpper()` preserve casing and pass non-letter characters through unchanged.
