@@ -1,6 +1,6 @@
-# C# Practice Projects
+# C# Practice Console Applications
 
-31 projects built in 35 days covering fundamentals through OOP,
+32 console applications built in 36 days covering fundamentals through OOP,
 inheritance, polymorphism, abstract class architecture, and collections.
 
 ---
@@ -9,7 +9,7 @@ inheritance, polymorphism, abstract class architecture, and collections.
 Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator, Simple Cipher
 
 ## Phase 2 — Collections & Lists
-Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook, Item Shop, Item Vault
+Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook, Item Shop, Item Vault, Task List
 
 ## Phase 3 — OOP & Inheritance
 Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop, Crime Report Demo, Tech Support Ticket, Monster Codex
@@ -79,3 +79,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **Simple Cipher** — Console app that encrypts and decrypts messages using a Caesar cipher. `Encrypt()` and `Decrypt()` use `char` arithmetic to shift each letter by a normalized `shift % 26` value, wrapping with `% 26` and casting back to `char`. `char.IsLetter()` and `char.IsUpper()` preserve casing and pass non-letter characters through unchanged.
 
 - **Item Vault** — Console app with generic storage system using a `Vault<T>` class backed by a `List<T>`. `Add()`, `Remove()`, `Find()`, and `ListAll()` operate on any type. `Find()` accepts a `Predicate<T>` delegate and returns `T?`. Tested with three independent types — `Weapon`, `Potion`, and `Currency` — each overriding `ToString()` for display. `WeaponType` uses `enum` for type-safe values.
+
+- **Task List** — Generic task manager using a `TaskList<T>` class backed by a `List<T>`. `Add()`, `Remove()`, and `FindAll()` with `Predicate<T>` for filtering tasks by completion status. Demonstrates the difference between `=` (assignment) and `==` (comparison) inside lambda expressions.
