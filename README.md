@@ -3,8 +3,6 @@
 32 console applications built in 36 days covering fundamentals through OOP,
 inheritance, polymorphism, abstract class architecture, and collections.
 
----
-
 ## Phase 1 — Fundamentals
 Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator, Simple Cipher
 
