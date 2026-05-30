@@ -1,6 +1,6 @@
 # C# Practice Console Applications
 
-32 console applications built in 36 days covering fundamentals through OOP,
+33 console applications built in 37 days covering fundamentals through OOP,
 inheritance, polymorphism, abstract class architecture, and collections.
 
 ## Phase 1 — Fundamentals
@@ -10,7 +10,7 @@ Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report Sys
 Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook, Item Shop, Item Vault, Task List
 
 ## Phase 3 — OOP & Inheritance
-Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop, Crime Report Demo, Tech Support Ticket, Monster Codex
+Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop, Crime Report Demo, Tech Support Ticket, Monster Codex, Quick Battle
 
 ---
 
@@ -79,3 +79,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **Item Vault** — Console app with generic storage system using a `Vault<T>` class backed by a `List<T>`. `Add()`, `Remove()`, `Find()`, and `ListAll()` operate on any type. `Find()` accepts a `Predicate<T>` delegate and returns `T?`. Tested with three independent types — `Weapon`, `Potion`, and `Currency` — each overriding `ToString()` for display. `WeaponType` uses `enum` for type-safe values.
 
 - **Task List** — Generic task manager using a `TaskList<T>` class backed by a `List<T>`. `Add()`, `Remove()`, and `FindAll()` with `Predicate<T>` for filtering tasks by completion status. Demonstrates the difference between `=` (assignment) and `==` (comparison) inside lambda expressions.
+
+- **Quick Battle** — Turn-based RPG combat demo with `Player` and `Enemy` inheriting from an abstract `Character` base class. HP uses a private backing field with `Math.Clamp()` and an expression body `IsAlive` property. Three enemy types override `GetUniqueTraitDescription()`. Generic `Inventory<T>` manages potion tracking. `GameState` enum drives the turn loop. Switch expression handles random enemy selection.
