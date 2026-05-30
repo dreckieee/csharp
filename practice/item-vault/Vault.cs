@@ -15,7 +15,7 @@ public class Vault<T>
 
     public T? Find (Predicate<T> match)
     {
-        Console.WriteLine($"searching the Vault...\n");
+        Console.WriteLine($"Searching the Vault...\n");
         T? result = Any.Find(match);
 
         if (result == null)
@@ -35,5 +35,4 @@ public class Vault<T>
             Console.WriteLine($"{Any[count]}");
         }
     }
-
 }
