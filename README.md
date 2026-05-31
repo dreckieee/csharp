@@ -1,10 +1,10 @@
 # C# Practice Console Applications
 
-33 console applications built in 37 days covering fundamentals through OOP,
+34 console applications built in 38 days covering fundamentals through OOP,
 inheritance, polymorphism, abstract class architecture, and collections.
 
 ## Phase 1 — Fundamentals
-Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator, Simple Cipher
+Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator, Simple Cipher, Combat Calculator
 
 ## Phase 2 — Collections & Lists
 Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook, Item Shop, Item Vault, Task List
@@ -81,3 +81,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **Task List** — Generic task manager using a `TaskList<T>` class backed by a `List<T>`. `Add()`, `Remove()`, and `FindAll()` with `Predicate<T>` for filtering tasks by completion status. Demonstrates the difference between `=` (assignment) and `==` (comparison) inside lambda expressions.
 
 - **Quick Battle** — Turn-based RPG combat demo with `Player` and `Enemy` inheriting from an abstract `Character` base class. HP uses a private backing field with `Math.Clamp()` and an expression body `IsAlive` property. Three enemy types override `GetUniqueTraitDescription()`. Generic `Inventory<T>` manages potion tracking. `GameState` enum drives the turn loop. Switch expression handles random enemy selection.
+
+- **Combat Calculator** — Console app that simulates one round of combat between two fighters using isolated methods. `RollDamage()` generates inclusive random damage, `IsCriticalHit()` uses an optional chance parameter with a 20% default, `ApplyDefense()` clamps damage reduction to never go below 0, and `CalculateFinalDamage()` orchestrates all three. `PrintCombatResult()` is the single output point.
