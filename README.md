@@ -1,10 +1,10 @@
 # C# Practice Console Applications
 
-35 console applications built in 39 days covering fundamentals through OOP,
+36 console applications built in 40 days covering fundamentals through OOP,
 inheritance, polymorphism, abstract class architecture, and collections.
 
 ## Phase 1 — Fundamentals
-Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator, Simple Cipher, Combat Calculator, Damage Printer
+Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator, Simple Cipher, Combat Calculator, Damage Printer, Out Parameters Drill
 
 ## Phase 2 — Collections & Lists
 Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook, Item Shop, Item Vault, Task List
@@ -85,3 +85,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **Combat Calculator** — Console app that simulates one round of combat between two fighters using isolated methods. `RollDamage()` generates inclusive random damage, `IsCriticalHit()` uses an optional chance parameter with a 20% default, `ApplyDefense()` clamps damage reduction to never go below 0, and `CalculateFinalDamage()` orchestrates all three. `PrintCombatResult()` is the single output point.
 
 - **Damage Printer** — Console app that demonstrates method overloading through three versions of `PrintDamage()`: damage only, damage with attacker name, and damage with attacker name and crit status. Crit doubles damage and is rolled once and stored before being passed in. `Fighter` class holds name and attack with `private set` properties.
+
+- **Out Parameters Drill** — Console app that demonstrates `out` parameters through two methods. `GenerateStats()` writes HP, attack, and defense into out parameters using random ranges. `EvaluateFighter()` calculates a total stat score and writes a rank (F/C/B/A) into an out parameter. Variable names at the call site intentionally differ from method parameter names to reinforce that position, not name, determines mapping.
