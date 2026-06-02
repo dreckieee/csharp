@@ -1,10 +1,10 @@
 # C# Practice Console Applications
 
-36 console applications built in 40 days covering fundamentals through OOP,
-inheritance, polymorphism, abstract class architecture, and collections.
+37 console applications built in 41 days covering fundamentals through OOP,
+inheritance, polymorphism, abstract class architecture, collections, and methods.
 
 ## Phase 1 — Fundamentals
-Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator, Simple Cipher, Combat Calculator, Damage Printer, Out Parameters Drill
+Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator, Simple Cipher, Combat Calculator, Damage Printer, Out Parameters Drill, Ref Parameters Drill
 
 ## Phase 2 — Collections & Lists
 Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook, Item Shop, Item Vault, Task List
@@ -87,3 +87,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **Damage Printer** — Console app that demonstrates method overloading through three versions of `PrintDamage()`: damage only, damage with attacker name, and damage with attacker name and crit status. Crit doubles damage and is rolled once and stored before being passed in. `Fighter` class holds name and attack with `private set` properties.
 
 - **Out Parameters Drill** — Console app that demonstrates `out` parameters through two methods. `GenerateStats()` writes HP, attack, and defense into out parameters using random ranges. `EvaluateFighter()` calculates a total stat score and writes a rank (F/C/B/A) into an out parameter. Variable names at the call site intentionally differ from method parameter names to reinforce that position, not name, determines mapping.
+
+- **Ref Parameters Drill** — Console app that demonstrates `ref` parameters through three methods. `TakeDamage()` subtracts damage from HP clamped to 0, `HealHP()` adds heal amount clamped to maxHP, and `ApplyBuff()` adds a buff directly to attack. Uses the extract → modify → write-back pattern since properties cannot be passed as `ref` directly.
