@@ -1,10 +1,10 @@
 # C# Practice Console Applications
 
-37 console applications built in 41 days covering fundamentals through OOP,
+38 console applications built in 42 days covering fundamentals through OOP,
 inheritance, polymorphism, abstract class architecture, collections, and methods.
 
 ## Phase 1 — Fundamentals
-Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator, Simple Cipher, Combat Calculator, Damage Printer, Out Parameters Drill, Ref Parameters Drill
+Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator, Simple Cipher, Combat Calculator, Damage Printer, Out Parameters Drill, Ref Parameters Drill, Patient Vitals Monitor
 
 ## Phase 2 — Collections & Lists
 Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook, Item Shop, Item Vault, Task List
@@ -89,3 +89,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **Out Parameters Drill** — Console app that demonstrates `out` parameters through two methods. `GenerateStats()` writes HP, attack, and defense into out parameters using random ranges. `EvaluateFighter()` calculates a total stat score and writes a rank (F/C/B/A) into an out parameter. Variable names at the call site intentionally differ from method parameter names to reinforce that position, not name, determines mapping.
 
 - **Ref Parameters Drill** — Console app that demonstrates `ref` parameters through three methods. `TakeDamage()` subtracts damage from HP clamped to 0, `HealHP()` adds heal amount clamped to maxHP, and `ApplyBuff()` adds a buff directly to attack. Uses the extract → modify → write-back pattern since properties cannot be passed as `ref` directly.
+
+- **Patient Vitals Monitor** — Console app that simulates a hospital vitals monitoring system. `GenerateVitals()` uses `out` parameters to produce randomized BP and HR readings. `EvaluateStatus()` writes a condition rank (Healthy/Stable/Unstable/Critical) into an `out` parameter based on vital ranges. `AdministerMeds()` uses `ref` parameters with optional defaults to adjust elevated or low vitals toward healthy ranges. `RecordVitals()` is overloaded three ways to print vitals with or without units and string values. Methods capstone combining `out`, `ref`, overloading, and optional parameters.
