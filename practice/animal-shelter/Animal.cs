@@ -9,5 +9,5 @@ public abstract class Animal
         Age = age;
         Species = species;
     }
-    public abstract void MakeSound();
+    public abstract string MakeSound();
 }
