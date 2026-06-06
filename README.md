@@ -1,6 +1,6 @@
 # C# Practice Console Applications
 
-38 console applications built in 42 days covering fundamentals through OOP,
+39 console applications built in 45 days covering fundamentals through OOP,
 inheritance, polymorphism, abstract class architecture, collections, and methods.
 
 ## Phase 1 — Fundamentals
@@ -10,7 +10,7 @@ Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report Sys
 Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook, Item Shop, Item Vault, Task List
 
 ## Phase 3 — OOP & Inheritance
-Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop, Crime Report Demo, Tech Support Ticket, Monster Codex, Quick Battle
+Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop, Crime Report Demo, Tech Support Ticket, Monster Codex, Quick Battle, Animal Shelter
 
 ---
 
@@ -91,3 +91,5 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 - **Ref Parameters Drill** — Console app that demonstrates `ref` parameters through three methods. `TakeDamage()` subtracts damage from HP clamped to 0, `HealHP()` adds heal amount clamped to maxHP, and `ApplyBuff()` adds a buff directly to attack. Uses the extract → modify → write-back pattern since properties cannot be passed as `ref` directly.
 
 - **Patient Vitals Monitor** — Console app that simulates a hospital vitals monitoring system. `GenerateVitals()` uses `out` parameters to produce randomized BP and HR readings. `EvaluateStatus()` writes a condition rank (Healthy/Stable/Unstable/Critical) into an `out` parameter based on vital ranges. `AdministerMeds()` uses `ref` parameters with optional defaults to adjust elevated or low vitals toward healthy ranges. `RecordVitals()` is overloaded three ways to print vitals with or without units and string values. Methods capstone combining `out`, `ref`, overloading, and optional parameters.
+
+- **Animal Shelter** — OOP review project with an abstract `Animal` base class and abstract `MakeSound()`. `Dog`, `Cat`, and `Parrot` inherit from `Animal` with `Dog` and `Parrot` implementing both `IAdoptable` and `ITrainable`, and `Cat` implementing `IAdoptable` only. Generic `Shelter<T>` manages all animals with `Add()`, `Remove()`, `GetAll()`, and `Count`. `is` pattern matching detects interfaces at runtime and polymorphism drives `MakeSound()` across all types via a for loop.
