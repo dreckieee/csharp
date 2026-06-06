@@ -7,16 +7,16 @@ public class Dog : Animal, IAdoptable, ITrainable
     }
     public override string MakeSound ()
     {
-        return "woof!";
+        return "\"woof!\"";
     }
 
     public string GetAdoptionProfile ()
     {
-        return "Name: ".PadRight(11) + $"{Name}\n" + "Age: ".PadRight(11) + $"{Age}\n" + "Species: " + $"{Species}";
+        return "Name ".PadRight(11) + $"{Name}\n" + "Age ".PadRight(11) + $"{Age}\n" + "Species ".PadRight(11) + $"{Species}";
     }
 
     public string GetTrainingLevel ()
     {
-        return "Level: Advanced - knows basic commands (sit, stay, etc.) and advanced commands (roll, play dead, etc.)";
+        return "Advanced (knows basic commands like sit, stay, etc. and advanced commands as well such as roll, play dead, etc.)";
     }
 }

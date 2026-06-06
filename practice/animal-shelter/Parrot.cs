@@ -7,16 +7,16 @@ public class Parrot : Animal, IAdoptable, ITrainable
     }
     public override string MakeSound ()
     {
-        return "What?";
+        return "\"What?\"";
     }
 
     public string GetAdoptionProfile ()
     {
-        return "Name: ".PadRight(11) + $"{Name}\n" + "Age: ".PadRight(11) + $"{Age}\n" + "Species: " + $"{Species}";
+        return "Name ".PadRight(11) + $"{Name}\n" + "Age ".PadRight(11) + $"{Age}\n" + "Species ".PadRight(11) + $"{Species}";
     }
 
     public string GetTrainingLevel ()
     {
-        return "Level: Basic - knows basic commands eat, quiet, sleep";
+        return "Basic (knows basic commands eat, quiet, sleep)";
     }
 }

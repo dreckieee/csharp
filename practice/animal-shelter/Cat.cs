@@ -7,12 +7,12 @@ public class Cat : Animal, IAdoptable
     }
     public override string MakeSound ()
     {
-        return "meow";
+        return "\"meow\"";
     }
 
     public string GetAdoptionProfile ()
     {
-        return "Name: ".PadRight(11) + $"{Name}\n" + "Age: ".PadRight(11) + $"{Age}\n" + "Species: " + $"{Species}";
+        return "Name ".PadRight(11) + $"{Name}\n" + "Age ".PadRight(11) + $"{Age}\n" + "Species ".PadRight(11) + $"{Species}";
     }
 
 }
