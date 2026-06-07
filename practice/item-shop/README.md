@@ -27,4 +27,4 @@ Console app with Shop and Player classes each owning a Dictionary for inventory 
 
 ---
 
-Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — 39 console apps built in public.
+Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — built in public daily.

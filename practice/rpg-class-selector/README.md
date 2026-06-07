@@ -25,4 +25,4 @@ Knight, Wizard, and Rogue inherit from an abstract Hero class. User input drives
 
 ---
 
-Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — 39 console apps built in public.
+Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — built in public daily.

@@ -26,4 +26,4 @@ Generic task manager using a TaskList<T> class with filtering via Predicate<T>.
 
 ---
 
-Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — 39 console apps built in public.
+Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — built in public daily.

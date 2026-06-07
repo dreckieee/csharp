@@ -27,4 +27,4 @@ RPG battle system with Warrior, Mage, and Archer inheriting from an abstract Uni
 
 ---
 
-Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — 39 console apps built in public.
+Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — built in public daily.

@@ -26,4 +26,4 @@ Console app that validates a password against three rules and loops until a vali
 
 ---
 
-Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — 39 console apps built in public.
+Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — built in public daily.

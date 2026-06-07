@@ -27,4 +27,4 @@ Console app with a Boss inheriting from Enemy and overriding TakeDamage() to tak
 
 ---
 
-Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — 39 console apps built in public.
+Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — built in public daily.

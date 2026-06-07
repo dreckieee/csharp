@@ -26,4 +26,4 @@ Console app that encrypts and decrypts messages using a Caesar cipher.
 
 ---
 
-Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — 39 console apps built in public.
+Part of the [CSharpPractice](https://github.com/dreckieee/csharp) portfolio — built in public daily.
