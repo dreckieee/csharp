@@ -6,9 +6,9 @@ polymorphism, abstract class architecture, generics, collections, and methods.
 Zero warnings enforced on every push. One file per class. Built toward a remote QA Automation 
 and .NET Developer career — and because it's fun.
 
-📍 Philippines — Open to remote work
-🔗 linkedin.com/in/dreckieee
-🎯 Currently building toward QA Automation and .NET Web API
+📍 Philippines — Open to remote work  
+🔗 linkedin.com/in/dreckieee  
+🎯 Currently building toward QA Automation and .NET Web API  
 
 ## Phase 1 — Fundamentals
 Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator, Simple Cipher, Combat Calculator, Damage Printer, Out Parameters Drill, Ref Parameters Drill, Patient Vitals Monitor
