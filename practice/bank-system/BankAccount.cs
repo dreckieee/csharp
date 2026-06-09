@@ -4,14 +4,14 @@ public class BankAccount
     public decimal Balance {get; private set;}
     public BankAccount (string owner, decimal balance)
     {
-        Owner = owner;
+        Owner = owner.ToUpper();
         Balance = balance;
     }
     public void Deposit (decimal amount)
     {
         if (amount <= 0)
         {
-            throw new InvalidAmountException("Invalid amount. Enter amount greater than 0.");
+            throw new InvalidAmountException("Deposits are not possible for 0.00 or less.");
         }
         Balance += amount;
     }
@@ -20,11 +20,11 @@ public class BankAccount
     {
         if (amount <= 0) 
         {
-            throw new InvalidAmountException("Invalid amount. Enter amount greater than 0.");
+            throw new InvalidAmountException("Withdrawals are not possible for 0.00 or less.");
         }        
         if (amount > Balance) 
         {
-            throw new InsufficientFundsException($"Insufficient funds. You only have {Balance:C} left.", amount);
+            throw new InsufficientFundsException($"A withdrawal of {amount:C} is not possible from your balance of {Balance:C}", amount);
         }
         Balance -= amount;
     }
