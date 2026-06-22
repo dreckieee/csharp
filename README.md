@@ -1,6 +1,6 @@
 # C# Console Portfolio — Dreck Richard Pascual
 
-53 original C# console applications built in 59 days — fundamentals through OOP, inheritance, 
+54 original C# console applications built in 60 days — fundamentals through OOP, inheritance, 
 polymorphism, abstract class architecture, generics, collections, methods, and error handling.
 
 Zero warnings enforced on every push. One file per class. Built toward a remote QA Automation 
@@ -17,7 +17,7 @@ Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report Sys
 Character Card, Party Manager, Shopping List Manager, Student Registry, Movie Watchlist, Item Inventory, Enemy Spawner, Dialogue Processor, Mini Phonebook, Item Shop, Item Vault, Task List, Student Report Analyzer, Game Leaderboard, Typed Storage
 
 ## Phase 3 — OOP & Inheritance
-Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop, Crime Report Demo, Tech Support Ticket, Monster Codex, Quick Battle, Animal Shelter, Vehicle Fleet
+Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based Battle, Loot Filter Demo, Dragon's Gate, Guild Registry, Potion Shop, Crime Report Demo, Tech Support Ticket, Monster Codex, Quick Battle, Animal Shelter, Vehicle Fleet, Item Lender
 
 ## Phase 4 — Exception Handling
 Error Handler, Bank System, Student Grade Submitter, Student Grade Analyzer, Item Order Processor, File Reader Simulator, Exception Filter Drill, Exception Policy Router, Hospital Record Processor, Username Validator
