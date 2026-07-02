@@ -4,7 +4,7 @@
 polymorphism, abstract class architecture, generics, collections, methods, and error handling.
 
 Zero warnings enforced on every push. One file per class. Built toward a remote QA Automation 
-and .NET Developer career — and because it's fun.
+and .NET Developer career — and because it's fun!
 
 📍 Philippines — Open to remote work  
 🔗 linkedin.com/in/dreckieee  
