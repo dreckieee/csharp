@@ -1,6 +1,6 @@
 # C# Console Portfolio — Dreck Richard Pascual
 
-66 original C# console applications built in 81 days — fundamentals through OOP, inheritance, 
+67 original C# console applications — fundamentals through OOP, inheritance, 
 polymorphism, abstract class architecture, generics, collections, methods, and error handling.
 
 Zero warnings enforced on every push. One file per class. Built toward a remote QA Automation 
@@ -23,6 +23,6 @@ Battle Demo, Squad Battle Demo, Shape Calculator, RPG Class Selector, Turn-Based
 Error Handler, Bank System, Student Grade Submitter, Student Grade Analyzer, Item Order Processor, File Reader Simulator, Exception Filter Drill, Exception Policy Router, Hospital Record Processor, Username Validator, Order Processor
 
 ## Standalone Drills
-Dependency Injection Demo, Sale API Demo, Console Calculator
+Dependency Injection Demo, Sale API Demo, Console Calculator, Retail Receipt Calculator
 
 ---
