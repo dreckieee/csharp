@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="IncomeTracker.csproj" />
+  <Project Path="../IncomeTracker.Tests/IncomeTracker.Tests.csproj" />
+</Solution>
