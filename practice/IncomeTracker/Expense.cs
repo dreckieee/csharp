@@ -9,6 +9,12 @@ public class Expense
         Amount = amount;
         Date = date;
     }
+    public void Update(decimal amount, DateTime date)
+    {
+        GuardExpense(amount, date);
+        Amount = amount;
+        Date = date;
+    }
     private void GuardExpense(decimal amount, DateTime date)
     {
         if(amount <= 0)
