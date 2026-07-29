@@ -25,6 +25,7 @@ public class ExpensesController : ControllerBase
         {
             return NotFound();
         }
+
         var expenseResponse = ExpenseResponse.FromExpense(expense);
         return Ok(expenseResponse);
     }
@@ -32,18 +33,10 @@ public class ExpensesController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<ExpenseResponse>> CreateExpense([FromBody] CreateExpenseRequest request)
     {
-        Expense expense;
-        try
-        {
-            expense = new Expense(request.Amount, request.Date);
-            _context.Expenses.Add(expense);
-            await _context.SaveChangesAsync();
-        }
-        catch(ArgumentException ex)
-        {
-            return BadRequest(new {message = ex.Message});
-        }
-        
+        var expense = new Expense(request.Amount, request.Date);
+        _context.Expenses.Add(expense);
+        await _context.SaveChangesAsync();
+            
         var expenseResponse = ExpenseResponse.FromExpense(expense);
         return CreatedAtAction(nameof(GetExpense), new {id = expense.Id}, expenseResponse);
     }
@@ -55,16 +48,10 @@ public class ExpensesController : ControllerBase
         {
             return NotFound();
         }
-        try
-        {
-            expense.Update(request.Amount, request.Date);
-            await _context.SaveChangesAsync();
-        }
-        catch(ArgumentException ex)
-        {
-            return BadRequest(new {message = ex.Message});
-        }
-
+        
+        expense.Update(request.Amount, request.Date);
+        await _context.SaveChangesAsync();
+        
         var expenseResponse = ExpenseResponse.FromExpense(expense);
         return Ok(expenseResponse);
     }
