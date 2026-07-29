@@ -5,3 +5,6 @@
 *.png
 *.sln
 *.lscache
+*.db
+*.db-shm
+*.db-wal
