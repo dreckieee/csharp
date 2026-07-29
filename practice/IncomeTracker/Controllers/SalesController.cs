@@ -33,11 +33,53 @@ public class SalesController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<SaleResponse>> CreateSale([FromBody] CreateSaleRequest request)
     {
-        var sale = new Sale(request.Amount, request.Date);
-        _context.Sales.Add(sale);
-        await _context.SaveChangesAsync();
-
+        Sale sale;
+        try
+        {
+            sale = new Sale(request.Amount, request.Date);
+            _context.Sales.Add(sale);
+            await _context.SaveChangesAsync();
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(new {message = ex.Message});
+        }
+        
         var saleResponse = SaleResponse.FromSale(sale);
         return CreatedAtAction(nameof(GetSale), new {id = sale.Id}, saleResponse);
+    }
+    [HttpPut("{id}")]
+    public async Task<ActionResult<SaleResponse>> UpdateSale([FromBody] UpdateSaleRequest request, int id)
+    {
+        var sale = await _context.Sales.FindAsync(id);
+        if (sale == null)
+        {
+            return NotFound();
+        }
+        try
+        {
+            sale.Update(request.Amount, request.Date);
+            await _context.SaveChangesAsync();
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(new {message = ex.Message});
+        }  
+
+        var saleResponse = SaleResponse.FromSale(sale);
+        return Ok(saleResponse);
+    }
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteSale(int id)
+    {
+        var sale = await _context.Sales.FindAsync(id);
+        if (sale == null)
+        {
+            return NotFound();
+        }
+        _context.Sales.Remove(sale);
+        await _context.SaveChangesAsync();
+
+        return NoContent();
     }
 }
