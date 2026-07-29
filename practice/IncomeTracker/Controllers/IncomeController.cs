@@ -14,7 +14,7 @@ public class IncomeController : ControllerBase
     public async Task<ActionResult<IncomeResponse>> GetNetIncome()
     {
         var totalSales = await _context.Sales.SumAsync(s => s.Amount);
-        var totalExpenses = await _context.Sales.SumAsync(e => e.Amount);
+        var totalExpenses = await _context.Expenses.SumAsync(e => e.Amount);
         var netIncomeResponse = IncomeResponse.FromTotalSaleAndExpenses(totalSales, totalExpenses);    
         return Ok(netIncomeResponse);
     }
