@@ -9,6 +9,12 @@ public class Sale
         Amount = amount;
         Date = date;
     }
+    public void Update(decimal amount, DateTime date)
+    {
+        GuardSale(amount, date);
+        Amount = amount;
+        Date = date;
+    }
     private void GuardSale(decimal amount, DateTime date)
     {
         if(amount <= 0)
