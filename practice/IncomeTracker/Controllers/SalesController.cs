@@ -32,17 +32,9 @@ public class SalesController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<SaleResponse>> CreateSale([FromBody] CreateSaleRequest request)
     {
-        Sale sale;
-        try
-        {
-            sale = new Sale(request.Amount, request.Date);
-            _context.Sales.Add(sale);
-            await _context.SaveChangesAsync();
-        }
-        catch (ArgumentException ex)
-        {
-            return BadRequest(new {message = ex.Message});
-        }
+        var sale = new Sale(request.Amount, request.Date);
+        _context.Sales.Add(sale);
+        await _context.SaveChangesAsync();
         
         var saleResponse = SaleResponse.FromSale(sale);
         return CreatedAtAction(nameof(GetSale), new {id = sale.Id}, saleResponse);
@@ -55,16 +47,10 @@ public class SalesController : ControllerBase
         {
             return NotFound();
         }
-        try
-        {
-            sale.Update(request.Amount, request.Date);
-            await _context.SaveChangesAsync();
-        }
-        catch (ArgumentException ex)
-        {
-            return BadRequest(new {message = ex.Message});
-        }  
 
+        sale.Update(request.Amount, request.Date);
+        await _context.SaveChangesAsync();
+        
         var saleResponse = SaleResponse.FromSale(sale);
         return Ok(saleResponse);
     }
