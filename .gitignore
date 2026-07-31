@@ -1,9 +1,6 @@
 **/bin/
 **/obj/
 *.user
-*.jpg
-*.png
-*.sln
 *.lscache
 *.db
 *.db-shm
