@@ -26,3 +26,13 @@ Error Handler, Bank System, Student Grade Submitter, Student Grade Analyzer, Ite
 Dependency Injection Demo, Sale API Demo, Console Calculator, Retail Receipt Calculator
 
 ---
+
+## Side Drill: Income Tracker
+A small ASP.NET Core Web API (`practice/IncomeTracker/`) — scaffolding practice for the 
+full Web API workflow: project setup, EF Core + SQLite, CRUD endpoints, centralized 
+exception handling, and integration tests. Separate from the 67-app console curriculum 
+above — not portfolio work, just repeatable muscle memory before/alongside 
+[VapeShopInventoryAPI](https://github.com/dreckieee/VapeShopInventoryAPI), the actual 
+portfolio Web API project.
+
+---
