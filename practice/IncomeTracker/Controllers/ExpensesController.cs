@@ -41,7 +41,7 @@ public class ExpensesController : ControllerBase
         return CreatedAtAction(nameof(GetExpense), new {id = expense.Id}, expenseResponse);
     }
     [HttpPut("{id}")]
-    public async Task<ActionResult<ExpenseResponse>> UpdateExpense([FromBody] UpdateExpenseRequest request, int id)
+    public async Task<ActionResult<ExpenseResponse>> UpdateExpense(int id, [FromBody] UpdateExpenseRequest request)
     {
         var expense = await _context.Expenses.FindAsync(id);
         if(expense == null)
