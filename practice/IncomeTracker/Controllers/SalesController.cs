@@ -40,7 +40,7 @@ public class SalesController : ControllerBase
         return CreatedAtAction(nameof(GetSale), new {id = sale.Id}, saleResponse);
     }
     [HttpPut("{id}")]
-    public async Task<ActionResult<SaleResponse>> UpdateSale([FromBody] UpdateSaleRequest request, int id)
+    public async Task<ActionResult<SaleResponse>> UpdateSale(int id, [FromBody] UpdateSaleRequest request)
     {
         var sale = await _context.Sales.FindAsync(id);
         if (sale == null)
