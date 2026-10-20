@@ -3,12 +3,13 @@
 67 original C# console applications — fundamentals through OOP, inheritance, 
 polymorphism, abstract class architecture, generics, collections, methods, and error handling.
 
-Zero warnings enforced on every push. One file per class. Built toward a remote QA Automation 
-and .NET Developer career — and because it's fun!
+Zero warnings enforced on every push. One file per class. Built to grow as a software engineer, with a focus on QA and .NET.
 
-📍 Philippines — Open to remote work  
+**Also see:** [VapeShopInventoryAPI](https://github.com/dreckieee/VapeShopInventoryAPI) — ASP.NET Core REST API with EF Core, SQLite, NUnit integration tests and GitHub Actions CI.
+
+📍 Philippines — Open to remote and on-site roles  
 🔗 linkedin.com/in/dreckieee  
-🎯 Currently building toward QA Automation and .NET Web API  
+🎯 Currently: looking for junior QA and .NET roles, learning Playwright and TypeScript ([toolshop-playwright-ts](https://github.com/dreckieee/toolshop-playwright-ts))  
 
 ## Phase 1 — Fundamentals
 Age Calculator, Grade Calculator, Number Analyzer, Dice Roller, Grade Report System, Mini Character Card Generator, Mini Password Validator, Simple Cipher, Combat Calculator, Damage Printer, Out Parameters Drill, Ref Parameters Drill, Patient Vitals Monitor, Stat Calculator, Memory Behavior Demo, Const Readonly Demo
@@ -31,8 +32,7 @@ Dependency Injection Demo, Sale API Demo, Console Calculator, Retail Receipt Cal
 A small ASP.NET Core Web API (`practice/IncomeTracker/`) — scaffolding practice for the 
 full Web API workflow: project setup, EF Core + SQLite, CRUD endpoints, centralized 
 exception handling, and integration tests. Separate from the 67-app console curriculum 
-above — just repeatable muscle memory before/alongside 
-[VapeShopInventoryAPI](https://github.com/dreckieee/VapeShopInventoryAPI), the actual 
-portfolio Web API project.
+above. The larger, deployed version of this workflow is 
+[VapeShopInventoryAPI](https://github.com/dreckieee/VapeShopInventoryAPI).
 
 ---
