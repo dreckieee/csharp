@@ -33,6 +33,6 @@ A small ASP.NET Core Web API (`practice/IncomeTracker/`) — scaffolding practic
 full Web API workflow: project setup, EF Core + SQLite, CRUD endpoints, centralized 
 exception handling, and integration tests. Separate from the 68-app console curriculum 
 above. The larger, deployed version of this workflow is 
-[VapeShopInventoryAPI](https://github.com/dreckieee/VapeShopInventoryAPI).
+[VapeShopInventoryAPI](https://github.com/dreckieee/VapeShopInventoryAPI)..
 
 ---
